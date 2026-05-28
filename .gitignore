@@ -1,0 +1,17 @@
+# Dataset cache (re-generable desde Kaggle)
+.cache_npz/
+
+# Pesos entrenados (re-generables; los guardamos en Colab y descargamos al PC)
+*.weights.h5
+*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
